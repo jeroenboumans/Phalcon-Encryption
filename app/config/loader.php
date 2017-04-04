@@ -6,14 +6,14 @@ $loader = new \Phalcon\Loader();
  */
 $loader->registerNamespaces(array(
 
-	// Application dirs
-	'YourApplication\Models' => $config->application->modelsDir . 'YourApplication/',
-	'YourApplication\Classes' => $config->application->classesDir,
+    // Application dirs
+    'YourApplication\Models' => $config->application->modelsDir . 'YourApplication/',
+    'YourApplication\Classes' => $config->application->classesDir,
 
-	// Security
-	'Security\Classes'  => $config->application->security->classesDir,
-	'Security\Models'   => $config->application->security->modelsDir
-	
+    // Security
+    'Security\Classes'  => $config->application->security->classesDir,
+    'Security\Models'   => $config->application->security->modelsDir
+    
 ));
 
 

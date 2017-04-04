@@ -19,10 +19,10 @@ class SomeModel extends ModelBase
     private $data;
     
     // ==============================================================
-	//
-	// GETTERS/SETTERS
-	//
-	// ==============================================================
+    //
+    // GETTERS/SETTERS
+    //
+    // ==============================================================
 
     /**
      * Method to set the value of field id
@@ -91,21 +91,21 @@ class SomeModel extends ModelBase
         return json_decode(Cryptography::Decrypt($this->data, $this->keysId));
     }
 
-	// ==============================================================
-	//
-	// PHALCON EVENT DRIVEN METHODS
-	//
-	// ==============================================================
-	
-	public function beforeValidationOnCreate()
-	{
-		
-	}
-	public function beforeValidationOnUpdate()
-	{
-		$this->timestamp = date("Y-m-d G:i:s");
-	}
-	
+    // ==============================================================
+    //
+    // PHALCON EVENT DRIVEN METHODS
+    //
+    // ==============================================================
+    
+    public function beforeValidationOnCreate()
+    {
+        
+    }
+    public function beforeValidationOnUpdate()
+    {
+        $this->timestamp = date("Y-m-d G:i:s");
+    }
+    
     /**
      * Initialize method for model.
      */

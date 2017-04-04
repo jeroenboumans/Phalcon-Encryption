@@ -22,7 +22,7 @@ return new \Phalcon\Config(array(
     ),
 
     'application' => array(
-	    // ...
+        // ...
         'modelsDir' => APP_DIR . '/models/',
         'classesDir' => APP_DIR . '/classes/',
         'security' => [
