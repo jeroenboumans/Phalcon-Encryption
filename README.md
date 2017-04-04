@@ -25,7 +25,7 @@ public function setData($data)
 ## Decryption
 Decryption is just as easy data with a single line of code when a model has a keysId available.
 ```php
-Cryptography::Decrypt($data, $keysId)
+Cryptography::Decrypt($data, $keysId);
 ```
 
 Example:
