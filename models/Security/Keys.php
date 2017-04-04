@@ -56,6 +56,7 @@ class Keys extends ModelBase
      */
     public function initialize()
     {
+        // make sure you're using the security database
         $this->setConnectionService('db-security');
     }
 }

@@ -111,9 +111,6 @@ class SomeModel extends ModelBase
      */
     public function initialize()
     {
-        // make sure you're using the security database
-        $this->setConnectionService('db-genomes');
-
         $this->hasOne('keysId', 'Security\Models\Keys', 'id', array(
             'alias' => 'keyPair',
             'foreignKey' => array(
