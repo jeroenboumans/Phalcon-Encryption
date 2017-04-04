@@ -8,12 +8,12 @@ Add encryption to your PhalconPHP application.
 
 ## Encryption
 You can encrypt data with a single line of code when a model has a keysId available.
-```
+```php
 Cryptography::Encrypt($data, $keysId);
 ```
 
 Example:
-```
+```php
 public function setData($data)
 {
     $encrypt = Cryptography::Encrypt(json_encode($data), $this->keysId);
@@ -24,12 +24,12 @@ public function setData($data)
 
 ## Decryption
 Decryption is just as easy data with a single line of code when a model has a keysId available.
-```
+```php
 Cryptography::Decrypt($data, $keysId)
 ```
 
 Example:
-```
+```php
 public function getData()
 {
     return json_decode(Cryptography::Decrypt($this->data, $this->keysId));
