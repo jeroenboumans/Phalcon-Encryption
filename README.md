@@ -1,4 +1,6 @@
 # Phalcon-Encryption
+[![Packagist](https://img.shields.io/badge/license-MIT-00aaff.svg?style=flat-square)](https://github.com/jeroenboumans/Paw-VuforiaConnector/blob/master/LICENSE) [![Packagist](https://img.shields.io/github/stars/jeroenboumans/Phalcon-Encryption.svg?style=flat-square)](https://github.com/jeroenboumans/Phalcon-Encryption/stargazers) [![Packagist](https://img.shields.io/github/issues/jeroenboumans/Phalcon-Encryption.svg?style=flat-square)](https://github.com/jeroenboumans/Phalcon-Encryption/issues)
+
 Add encryption to your PhalconPHP application.
 
 # Prerequisites
